@@ -1,0 +1,327 @@
+
+@media (max-width: 1200px) {
+	.about{
+		margin: 80px 0;
+	}
+
+	.about__title{
+		font-size: 36px;
+	}
+
+	.about__bigtitle{
+		font-size: 72px;
+	}
+
+}
+/*========================1200px==============*/
+
+
+@media (max-width: 990px) {
+
+	.about{
+		margin: 40px 0;
+	}
+
+	.about__inner{
+		justify-content: center;
+	}
+
+	.about__content{
+		width: 100%;
+		text-align: center;
+		order: 1;
+		padding-left: 0;
+		margin: 10px 0;
+	}
+
+	.about__text{
+		max-width: 990px;
+		text-align: center;
+		padding: 0 15px;
+	}
+
+	.about__photo{
+		order: 2;
+	}
+
+	.about__photo img{
+		height: auto;
+		position: relative;
+	}
+
+	.about__photo:before{
+		width: 100%;
+		height: 300px;
+		left: 0;
+	}
+
+	.news{
+		margin-top: 200px;
+		margin-bottom: 70px;
+	}
+
+	.madal-work {
+		display: block;
+	}
+
+	.modal-work__preview {
+		display: none;
+	}
+
+	.modal-work__content {
+		width: 100%;
+		padding: 40px 20px;
+	}
+
+	.modal_work__footer {
+		display: none;
+	}
+
+	.modal-work__text {
+		margin-bottom: 0;
+	}
+
+	.btn {
+		margin-bottom: 20px;
+	}
+}
+
+/*=====================990px================*/
+
+@media (max-width: 767px) {
+	.nav{
+		display: none;
+		width: 100%;
+		height: auto;
+		padding: 15px;
+		flex-direction: column;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 1000;
+		background-color: #fff;
+		text-align: center;
+		box-shadow: 0 5px 10px rgba(0, 0, 0 ,.3);
+	}
+
+	.nav.show{
+		display: flex;
+
+	}
+
+	.nav__link{
+		display: block;
+		width: 100%;
+		font-size: 16px;
+		margin: 0;
+		padding: 8px 15px;
+		margin-left: 0;
+	}
+
+
+	.burger{
+		display: block;
+
+		position: absolute;
+		right: 10px;
+		z-index: 1000;
+	}
+
+	.intro{
+		margin-top: 40px;
+	}
+
+	.intro__inner{
+		padding-top: 30px;
+		padding-bottom: 40px;
+		background-size: 400px auto;
+	}
+
+	.intro__subtitle{
+		font-size: 24px;
+	}
+
+	.intro__title{
+		font-size: 32px;
+	}
+
+	.intro__photo{
+		max-width: 350px;
+	}
+
+	.btn{
+		margin-bottom: 15px;
+		min-width: 150px;
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+
+	.portfolio__col{
+		width: 50%;
+	}
+
+	.news{
+		margin-top: 180px;
+		margin-bottom: 30px;
+	}
+
+	.news__title{
+		font-size: 36px;
+	}
+	.news__text{
+		margin-bottom: 30px;
+	}
+
+	.articles__content{
+	margin-bottom: 15px;
+	}
+
+	.articles__col{
+		width: 100%;
+	}
+
+	.footer__inner{
+		justify-content: center;
+	}
+
+	.footer__nav{
+		padding-bottom: 20px;
+	}
+
+	.progress-bar__item {
+		max-width: 300px;
+		width: 100%;
+    margin: 0 auto;
+	}
+
+	.progress-bar__left {
+		padding-left: 0;
+	}
+	.modal__content {
+		padding: 40px 15px 20px;
+	}
+
+	.modal__title {
+		margin-bottom: 20px;
+	}
+
+	.timeline {
+		flex-wrap: wrap;
+		margin: 20px auto;
+	}
+
+	.timeline:before{
+		display: none;
+	}
+
+	.timeline__col{
+		width: 100%;
+		text-align: center;
+	}
+
+	.timeline__col--left{
+		padding-right: 0;
+	}
+
+	.timeline__col--right{
+		padding-left: 0;
+	}
+
+	.awards__item {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.awards__item-right {
+		padding-left: 0;
+	}
+
+	.awards__item-left {
+		margin-bottom: 15px;
+	}
+
+		.modal-work__title {
+			font-size: 24px;
+		}
+	}
+/*=============================770px=============*/
+
+
+@media (max-width: 575px) {
+
+	.intro__inner{
+		background: none;
+	}
+
+	.intro__photo{
+		display: none;
+	}
+
+	.intro__content{
+		width: 100%;
+	}
+
+	.portfolio__col{
+		width: 100%;
+	}
+
+	.works{
+		margin-top: 100px;
+		margin-bottom: 20px;
+	}
+
+	.about{
+		margin: 20px 0;
+	}
+
+	.about__title{
+		font-size: 24px;
+	}
+
+	.about__bigtitle{
+		font-size: 45px;
+	}
+
+	.about__photo{
+		display: none;
+	}
+
+	.news{
+		margin-top: 200px;
+		margin-bottom: 50px;
+	}
+
+	.footer__credits{
+		flex-direction: column;
+	}
+
+	.footer__copyright{
+		margin-bottom: 10px;
+		margin-right: 0;
+	}
+
+	.footer__nav-link{
+		margin: 0 5px 10px;
+	}
+
+	.works__na-link {
+		font-size: 14px;
+		margin: 0 10px;
+	}
+
+
+	.contact{
+		flex-wrap: wrap;
+	}
+
+	.contact__left{
+		width: 100%;
+	}
+
+	.contact__right{
+		display: none;
+	}
+
+}
